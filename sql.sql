@@ -1,0 +1,1 @@
+create table users(id integer AUTO_INCREMENT PRIMARY key , PASSWORD varchar(255), login varchar(40) )
