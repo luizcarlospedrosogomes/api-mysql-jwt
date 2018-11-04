@@ -79,7 +79,7 @@ $entityManager = EntityManager::create($conn, $config);
  * Coloca o Entity manager dentro do container com o nome de em (Entity Manager)
  */
 $container['em'] = $entityManager;
-$container['secretkey'] = "secretloko";
+$container['secretkey'] = md5("A primeira regra do Clube da Luta é: você não fala sobre o Clube da Luta. A segunda regra do Clube da Luta é: você não fala sobre o Clube da Luta. Terceira regra do Clube da Luta: se alguém gritar Pára, fraquejar, sinalizar, a luta está terminada. Quarta regra: apenas dois caras numa luta.");
 
 $app = new \Slim\App($container);
 /**
